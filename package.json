@@ -9,22 +9,26 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "prettier": "prettier --write '**/*.{js,jsx,ts,tsx}'",
-    "prettier-check": "prettier --check '**/*.{js,jsx,ts,tsx}'"
+    "prettier-check": "prettier --check '**/*.{js,jsx,ts,tsx}'",
+    "build:dev:android": "eas build --profile development --platform android"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.0",
+    "@react-native-firebase/app": "^19.2.2",
     "@react-navigation/native": "^6.0.2",
     "@reduxjs/toolkit": "^2.2.3",
     "expo": "~50.0.14",
+    "expo-dev-client": "~3.3.11",
     "expo-font": "~11.10.3",
     "expo-linking": "~6.2.2",
     "expo-router": "~3.4.8",
     "expo-splash-screen": "~0.26.4",
     "expo-status-bar": "~1.11.1",
     "expo-system-ui": "~2.9.3",
+    "expo-updates": "~0.24.12",
     "expo-web-browser": "~12.8.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
